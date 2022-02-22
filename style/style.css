@@ -1,0 +1,361 @@
+/* Configuraciones generales */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family:'Roboto', sans-serif;
+}
+html{
+    display:inline;
+}
+body{
+        margin: 0;
+}
+:root{
+    --primary-clr:#0052ff;
+    --secondary-clr:#fff;
+    --text-nav-clr: #000;
+}
+
+/* Estilos del header */
+header{
+    width: 100%;
+}
+header .top-menu-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(236, 239,241);
+    width:97%;
+    padding-left: 10px;
+   
+}
+header .top-menu-container .buttons-container{
+    display: flex;
+}
+header .top-menu-container .logo{
+    padding-bottom: 3px;
+}
+header .top-menu-container .logo img{
+    position: relative;
+    width: 112px;
+    height: 20px;
+    margin: 15px;
+}
+.get-started{
+    color:var(--secondary-clr);
+    background-color: var(--primary-clr);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    min-width: 100px;
+    padding: 6px 12px;
+    height: 35px;
+    margin-top: 6.5px;
+}
+header .drop-down-menu{
+    
+    height: calc(100vh - 55px);
+    height: calc(100vh - 55px);
+    display: grid;
+}
+
+header .hidden{
+    display: none;
+}
+header .show{
+    display: grid;
+}
+
+/* configuracion del nav */
+header .drop-down-menu nav {
+    
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+header nav ul{
+    list-style-type: none;
+    padding-left: 1.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    line-height: 3.3rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 550;
+    color: var(--text-nav-clr);
+}
+/* header nav ul li {
+    margin: 20px 0px 10px 0px;
+} */
+header .menu-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+    max-width: 320px; 
+}
+header .menu-buttons-container button{
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 95%;
+    justify-self: center;
+    font-size: 16px;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+header .menu-buttons-container .Get-started-nav{
+     color:var(--secondary-clr);
+    background-color: var(--primary-clr);
+    }
+header .menu-buttons-container .sesion-nav{
+     background-color:var(--secondary-clr);
+    color: var(--primary-clr);
+    border:1px solid var(--primary-clr) ;
+    }
+header .hambursize{
+position: relative;
+margin-right: 25px;
+}
+/* Cuerpo principal */
+.section1{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 24px;
+    padding-top: 20px;
+    overflow: hidden;
+    max-width: 1142px;
+    flex-direction: column;
+    
+}
+.subsection1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 0%;
+}
+.section1 .subsection1 .titlesection{
+    display: flex;
+    flex-direction: row;
+    /* justify-self: center; */
+    /* align-self: center; */
+    gap:0.4rem;
+    padding-left: 20px;
+}
+.section1 .subsection1 .titlesection .flechita{
+    display: flex;
+    align-self: center;
+}
+
+.section1 .subsection1 .titlesection .maintitle {
+    color:var(--primary-clr);
+    font-weight: 600; 
+
+}
+
+.maintitle2 {
+    margin: 2.8rem 0 2.8rem 0;
+    color: var(--text-nav-clr);
+    font-weight: 600;
+    font-size: 2.3rem;
+    width:85%;
+}
+
+.h3main{
+font-weight: 400;
+font-size: 1rem;
+width: 85%;
+margin-bottom: -20px;
+line-height: 1.5rem;
+}
+.mainput{
+    width: 90%;
+    height: 4rem;
+    margin-top: 30px;
+    border-radius: 3px;
+    background:none;
+    border:1px solid rgba(0, 0, 0, 0.116);
+
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(10, 11, 13);
+    padding: 20px;
+}
+
+.section1 .welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:0.65rem;
+}
+.section1 .get-started{
+    width: 90%;
+    height: 3.6rem;
+}
+/* Seccion create */
+img {
+    max-width: 100%;
+ }
+.create {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1.5rem;
+}
+.create .create-upper-container h2{
+    font-size: 2.3rem;
+        margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.create .create-upper-container {
+    text-align: center;
+}
+.create .create-upper-container p {
+line-height: 1.5rem;
+}
+.create-specifications-container{
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem 0;
+    gap:1.5rem;
+}
+.create-specifications-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.create .create-specifications-container .icon-container{
+    width:72px;
+    height: 72px;
+    border-radius: 50%;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create .create-specifications-container .create-specifications-items .description-container h3{
+    font-size: 1.4rem;
+}
+.create .create-specifications-container .create-specifications-items .description-container p{
+    color: #5B616E;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+/* Seccion precios y rates */
+
+#stats{
+    box-shadow:0.5px 0.5px 2px rgba(0, 0, 0, 0.507);
+    width: 101%;
+    margin-top: 150px;
+}
+.full-container {
+   box-shadow:0.5px 0.5px 2px rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.full-container .icon-name-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    justify-self: flex-start;
+}
+.full-container .icon-name-container .iconsub{
+    padding-right: 10px;
+}
+.full-container .icon-name-container .iconsub img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+#eth{
+    width: 65px !important;
+    max-width: 41px;
+}
+.full-container .icon-name-container .namesub{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.full-container .icon-name-container .namesub .abrevia{
+    color:#5B616E;
+}
+.full-container .pricerate-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+.full-container .pricerate-container .pricesub{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: right;
+}
+.full-container .pricerate-container .ratesub{
+    display: flex;
+    justify-content:right;
+    color:#098551;
+}
+
+/* Parámetros para el Responsive */
+@media screen and (min-width:450px) and (max-width:720px) {
+   header .drop-down-menu nav {
+       justify-self: center;
+   }
+   header .menu-buttons-container{
+       justify-self: center;
+       width: 320px;
+   }
+}
+@media screen and (min-width:720px) {
+    header .top-menu-container .buttons-container{
+        display: none;
+    }
+    header .hidden{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        height: auto;
+        margin-top:-60px;
+        margin-right: 15px;
+    }
+    header .hidden nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        width: 80vw;
+        
+    }
+    header .hidden nav ul li{
+        font-size: 1rem;
+        
+    }
+    header .menu-buttons-container{
+        display: none;
+    }
+}
