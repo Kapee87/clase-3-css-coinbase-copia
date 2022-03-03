@@ -8,7 +8,7 @@
   overflow-x: visible;
  }
  .hamburger {
-  padding: 12px 12px;
+  padding: 13px 13px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -41,9 +41,9 @@
   top: 50%;
   margin-top: -1.5px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 23px;
-    height: 2px;
-    background: linear-gradient(#0f0f0f, #060607c7);
+    width: 16px;
+    height: 2.5px;
+    background: linear-gradient(#000000, #060607c7);
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
